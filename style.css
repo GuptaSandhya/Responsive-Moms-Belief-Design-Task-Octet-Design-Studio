@@ -239,6 +239,9 @@ body {
 }
 
 @media(max-width:800px) {
+    .html{
+        padding: 0px;
+    }
     .main {
         width: 375px;
         margin: auto;
@@ -257,7 +260,8 @@ body {
         background-size: 100% calc(100vh - 10px);
         background-repeat: no-repeat;
         padding: 0px;
-        height: 664px;
+        margin: 0px;
+        height: calc(100vh);
 
     }
 
@@ -266,9 +270,15 @@ body {
     }
 
     .logo i {
-        font-size: 16px;
+        padding-left: 20px;
+        font-size: 28px;
         font-weight: 1000;
         padding-right: 1vw;
+        margin-right: 70px;
+    }
+    .logo img{
+        width: 122px;
+        height: 28px;
     }
 }
 
@@ -277,7 +287,6 @@ body {
     .images1 {
         display: none;
     }
-
 }
 
 .programs {
