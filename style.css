@@ -271,7 +271,7 @@ body {
         font-size: 28px;
         font-weight: 1000;
         padding-right: 1vw;
-        margin-right: 70px;
+        margin-right: 80px;
     }
     .logo img{
         width: 122px;
@@ -280,13 +280,14 @@ body {
     .content {
         text-align: center;
         margin: auto;
-        width: 300px;
+        width: 370px;
         margin: auto;
         align-content: center;
         /* height: 86vh; */
     }
     
     .content h2 {
+        margin: auto;
         font-family: Noto Serif;
         font-size: 25px;
         font-weight: 500;
@@ -297,42 +298,66 @@ body {
     
     .content p {
         font-weight: 400;
-        width: 100%;
+        width: 324px;
         height: 75px;
-        border: 1px solid;
         /* line-height: 25px; */
         margin: auto;
-        /* margin-top: 5vh;
-        margin-bottom: 5vh;*/
+        margin-top: 16px;
+        margin-bottom:30px;
         font-size: 16px;
     }
     
     .btn {
-        border-radius: 2vw;
-        width: 12vw;
-        height: 2.6vw;
+        font-family: Inter;
+        border-radius: 60px;
+        width: 165px;
+        height: 36px;
         border: 1px solid rgba(18, 94, 80, 1);
-        font-weight: 550;
+        font-weight: 600;
         background-color: rgba(18, 94, 80, 1);
         color: white;
-        font-size: 1.1vw;
+        font-size: 15px;
         margin: auto;
+        padding: 6px 15px 6px 15px;
+        margin-bottom: 19px;
     }
     
     .content :nth-child(4) {
-        width: 30vw;
-        font-size: 1.1vw;
+        width: 230px;
+        height: 69px;
+        font-size: 14px;
         font-weight: 400;
+    }
+
+    .allimages {
+        position: relative;
+        width: 100%;
+        top: -70px;
     }
     
     .navphone{
-        display: none;
         height: 70px;
         background-color: #000;
-        border: 2px solid red;
+        position: relative;
+        bottom: 17px;
+        border-radius: 20px  20px 0 0;
     }
-    .images1{
-        display: none;
+
+    .images1 :nth-child(2){
+        position: relative;
+        left: 120px;
+        bottom: 270px;
+    }
+
+    .images1 :nth-child(3){
+        position: relative;
+       left: 0px;        
+       bottom: 395px;
+    }
+
+    .images1 :nth-child(4){
+        position: relative;
+        right: 5px;
     }
 }
 
@@ -341,8 +366,4 @@ body {
     .images1, .navphone {
         display: none;
     }
-}
-.trial{
-    height: 200px;
-    background-color:antiquewhite
 }
